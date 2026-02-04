@@ -1,0 +1,57 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:#F5F5F5;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .header{
+            margin-left:1170px;
+            margin-top:5px;
+        }
+        .header span{
+            font-size:12px;
+            font-weight:bold;
+        }
+        nav{
+            background-color: #fff;
+            margin:5px 0px;
+            height:70px;
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+        .logo img{
+            height:100px;
+            margin:0 20px;
+        }
+        .menu-links{
+            display:flex;
+            list-style-type:none;
+            gap:20px;
+            margin-left:250px;
+        }
+        .menu-links li{
+            font-weight: bold;
+        }
+        .searchBar input{
+            padding:10px 20px;
+            border-radius:18px;
+            border:0.5px solid #F5F5F5;
+            background-color:#F5F5F5;
+            
+        }
+        .nav-icons{
+            padding:0 40px;
+        }
+        .nav-icons img{
+            height:20px;
+            padding:0 5px;
+        }
+        .under-to-nav{
+            text-align:center;
+            padding:2px;
+            font-size:12px;
+            font-weight:bolder;
+        }
