@@ -55,3 +55,42 @@
             font-size:12px;
             font-weight:bolder;
         }
+        .playbackground{
+            width:100% auto;
+            height:75vh;
+            margin-top:12px;
+            background: url("https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg");
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             background-attachment: fixed;
+             display: flex;
+             justify-content: center;
+            
+        }
+        .playback-content{
+            margin-top:185px;
+            text-align:center;
+        }
+        .playback-content p{
+            color:white;
+            font-size:18px;
+            font-weight:bold;
+
+        }
+        .playback-content h3{
+            color:white;
+            font-size:60px;
+        }
+        .buttons{
+            margin-top:20px;
+        }
+        .buttons button{
+            padding:12px 24px;
+            margin:10px;
+            font-weight:bold;
+            font-size:14px;
+            background-color: #fff;
+            border-radius:18px;
+            border:none;
+        }
